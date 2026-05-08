@@ -4,11 +4,7 @@ function App() {
   return (
     <>
       <div className="hero">
-        <img
-          src={`${import.meta.env.BASE_URL}memoji.PNG`}
-          alt="Ryan Marshall"
-          className="profile"
-        />
+        <img src="memoji.png" alt="Ryan Marshall" className="profile" />
 
         <h1>Ryan Marshall</h1>
 
@@ -31,21 +27,19 @@ function App() {
 
           <div className="project-content">
             <img
-              src={`${import.meta.env.BASE_URL}preview_image.png`}
+              src="preview-image.png"
               alt="Paid Media Dashboard Preview"
               className="project-image"
             />
 
             <p>
-              Built a Python-based marketing analytics dashboard
-              that visualizes campaign spend, CTR, CPC, CPA,
-              conversion performance, and ROAS across Meta,
-              TikTok, and Google Ads.
+              Built a Python-based marketing analytics dashboard that visualizes
+              campaign spend, CTR, CPC, CPA, conversion performance, and ROAS
+              across Meta, TikTok, and Google Ads.
             </p>
 
             <p>
-              <strong>Tech:</strong> Python, Streamlit, Pandas,
-              Plotly
+              <strong>Tech:</strong> Python, Streamlit, Pandas, Plotly
             </p>
 
             <div className="project-links">
