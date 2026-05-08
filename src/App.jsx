@@ -5,7 +5,7 @@ function App() {
     <>
       <div className="hero">
         <img
-          src="/memoji.PNG"
+          src={`${import.meta.env.BASE_URL}memoji.PNG`}
           alt="Ryan Marshall"
           className="profile"
         />
@@ -31,7 +31,7 @@ function App() {
 
           <div className="project-content">
             <img
-              src="/preview_image.png"
+              src={`${import.meta.env.BASE_URL}preview_image.png`}
               alt="Paid Media Dashboard Preview"
               className="project-image"
             />
