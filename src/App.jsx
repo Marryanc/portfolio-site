@@ -4,11 +4,11 @@ function App() {
   return (
     <>
       <div className="hero">
-            <img
-              src={`${import.meta.env.BASE_URL}memoji.PNG`}
-              alt="Ryan Marshall"
-              className="profile"
-            />
+        <img
+          src={`${import.meta.env.BASE_URL}memoji.PNG`}
+          alt="Ryan Marshall"
+          className="profile"
+        />
 
         <h1>Ryan Marshall</h1>
 
