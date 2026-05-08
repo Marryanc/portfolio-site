@@ -4,7 +4,11 @@ function App() {
   return (
     <>
       <div className="hero">
-        <img src="memoji.png" alt="Ryan Marshall" className="profile" />
+            <img
+              src={`${import.meta.env.BASE_URL}memoji.PNG`}
+              alt="Ryan Marshall"
+              className="profile"
+            />
 
         <h1>Ryan Marshall</h1>
 
@@ -27,7 +31,7 @@ function App() {
 
           <div className="project-content">
             <img
-              src="preview-image.png"
+              src={`${import.meta.env.BASE_URL}preview_image.png`}
               alt="Paid Media Dashboard Preview"
               className="project-image"
             />
